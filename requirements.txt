@@ -1,10 +1,10 @@
 numpy
 pandas
-sentence_transformers
-fastapi
+sentence_transformers==4.1.0
+fastapi==0.115.9
 streamlit
-uvicorn
-beautifulsoup4
-faiss
+uvicorn==0.34.3
+beautifulsoup4==4.13.4
+faiss==1.11.0
 re
 requests
