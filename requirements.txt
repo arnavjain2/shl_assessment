@@ -5,6 +5,6 @@ fastapi==0.115.9
 streamlit
 uvicorn==0.34.3
 beautifulsoup4==4.13.4
-faiss==1.11.0
+faiss_cpu==1.11.0
 re
 requests
