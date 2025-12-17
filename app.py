@@ -1,46 +1,63 @@
 import streamlit as st
-import requests
+import pandas as pd
+from recommendor2 import SHLRecommender
 
-API_URL = "http://127.0.0.1:8000/recommend"
-
-st.set_page_config(page_title="SHL Assessment Recommender", layout="wide")
-
-st.title("🧠 SHL Assessment Recommendation System")
-
-query = st.text_area(
-    "Enter Job Requirement / Query",
-    placeholder="e.g. Senior Data Analyst with SQL, Python and Excel skills",
-    height=120
+# ---------------------------------
+# PAGE CONFIG
+# ---------------------------------
+st.set_page_config(
+    page_title="SHL Assessment Recommender",
+    layout="centered"
 )
 
-top_k = st.slider("Number of recommendations", 5, 15, 10)
+st.title("🔍 SHL Assessment Recommendation Engine")
 
-if st.button("🔍 Recommend Assessments"):
+st.write(
+    "Enter a job description or hiring requirement to get the most relevant SHL assessments."
+)
+
+# ---------------------------------
+# LOAD MODEL (CACHE)
+# ---------------------------------
+@st.cache_resource
+def load_model():
+    return SHLRecommender()
+
+model = load_model()
+
+# ---------------------------------
+# INPUTS
+# ---------------------------------
+query = st.text_area(
+    "Job Requirement / Query",
+    placeholder="e.g. Hiring a Senior Data Analyst with SQL, Python and Excel skills"
+)
+
+top_k = st.slider(
+    "Number of recommendations",
+    min_value=5,
+    max_value=15,
+    value=10
+)
+
+# ---------------------------------
+# RUN RECOMMENDER
+# ---------------------------------
+if st.button("Recommend Assessments"):
     if not query.strip():
         st.warning("Please enter a query.")
     else:
         with st.spinner("Finding best assessments..."):
-            response = requests.post(
-                API_URL,
-                json={"query": query, "top_k": top_k},
-                timeout=30
-            )
+            results = model.recommend(query, top_k=top_k)
 
-        if response.status_code != 200:
-            st.error("API Error")
+        if results.empty:
+            st.error("No assessments found.")
         else:
-            data = response.json()["results"]
+            st.success(f"Top {len(results)} recommendations")
 
-            if not data:
-                st.info("No recommendations found.")
-            else:
-                st.subheader("📋 Recommended Assessments")
-
-                for i, r in enumerate(data, 1):
-                    with st.container():
-                        st.markdown(f"### {i}. {r['name']}")
-                        st.markdown(f"🔗 **URL:** {r['url']}")
-                        st.markdown(f"🧪 **Test Type:** {r['test_type']}")
-                        st.markdown(f"⏱ **Duration:** {r['duration']} minutes")
-                        st.markdown(f"⭐ **Score:** {r['score']:.3f}")
-                        st.markdown("---")
+            for idx, row in results.iterrows():
+                st.markdown("### " + row["name"])
+                st.markdown(f"🔗 **URL:** {row['url']}")
+                st.markdown(f"⏱️ **Duration:** {row['duration']} minutes")
+                st.markdown(f"🧠 **Test Type:** {row['test_type']}")
+                st.markdown("---")
