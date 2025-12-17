@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from recommendor2 import SHLRecommender
+from recommender import SHLRecommender
 
 # ---------------------------------
 # PAGE CONFIG
