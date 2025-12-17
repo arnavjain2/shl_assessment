@@ -1,19 +1,12 @@
 import pandas as pd
 from recommender import SHLRecommender
 
-# -------------------------
-# CONFIG
-# -------------------------
 INPUT_FILE = "data/Gen_AI Dataset test.csv"
 OUTPUT_FILE = "data/query_predictions_flat.csv"
 QUERY_COL = "Query"
 TOP_K = 10
 
-# -------------------------
-# MAIN
-# -------------------------
 def main():
-    # Load queries
     df = pd.read_csv(INPUT_FILE)
 
     if QUERY_COL not in df.columns:
@@ -41,14 +34,11 @@ def main():
         if idx % 5 == 0:
             print(f"Processed {idx + 1}/{len(df)} queries")
 
-    # Save flat format
     out_df = pd.DataFrame(rows)
     out_df.to_csv(OUTPUT_FILE, index=False)
 
-    print(f"\n✅ Saved predictions to {OUTPUT_FILE}")
+    print(f"\nSaved predictions to {OUTPUT_FILE}")
 
-# -------------------------
-# ENTRY
-# -------------------------
+
 if __name__ == "__main__":
     main()

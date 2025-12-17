@@ -7,7 +7,7 @@ INDEX_PATH = "data/faiss_index.index"
 def main():
     embeddings = np.load(EMB_PATH).astype("float32")
 
-    # Normalize for cosine similarity
+
     faiss.normalize_L2(embeddings)
 
     dim = embeddings.shape[1]

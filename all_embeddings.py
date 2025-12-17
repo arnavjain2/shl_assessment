@@ -2,16 +2,10 @@ import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-# -------------------------------------------------
-# CONFIG
-# -------------------------------------------------
 CSV_PATH = "data/shl_assessments.csv"
 EMB_PATH = "data/embeddings_alls.npy"
 MODEL_NAME = "all-mpnet-base-v2"
 
-# -------------------------------------------------
-# TEST TYPE FULL FORM MAPPING
-# -------------------------------------------------
 TEST_TYPE_MAP = {
     "A": "Ability & Aptitude",
     "B": "Biodata & Situational Judgement",
@@ -38,26 +32,18 @@ def expand_test_types(test_type_str: str) -> str:
 
     return ", ".join(expanded)
 
-# -------------------------------------------------
-# LOAD DATA
-# -------------------------------------------------
 def load_data():
     df = pd.read_csv(CSV_PATH)
 
-    # Duration → int, N/A → 0
     df["duration"] = (
         pd.to_numeric(df["duration"], errors="coerce")
         .fillna(0)
         .astype(int)
     )
 
-    # Fill remaining NaNs
     df = df.fillna("")
     return df
 
-# -------------------------------------------------
-# BUILD EMBEDDING TEXT
-# -------------------------------------------------
 def build_embedding_text(row):
     expanded_test_types = expand_test_types(row["test_type"])
     a = ""
@@ -76,9 +62,6 @@ def build_embedding_text(row):
     {a}
     """.strip().lower()
 
-# -------------------------------------------------
-# MAIN
-# -------------------------------------------------
 def main():
     df = load_data()
 
@@ -98,8 +81,5 @@ def main():
 
     print(f"Saved embeddings with shape: {embeddings.shape}")
 
-# -------------------------------------------------
-# ENTRY POINT
-# -------------------------------------------------
 if __name__ == "__main__":
     main()

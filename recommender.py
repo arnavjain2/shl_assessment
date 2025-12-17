@@ -40,21 +40,15 @@ class SHLRecommender:
         self.index = faiss.read_index("data/faiss_index.index")
 
     def recommend(self, query, top_k=10):
-        # -------------------------------
-        # 1️⃣ STRONG SEMANTIC RECALL ONLY
-        # -------------------------------
         q_emb = self.model.encode([query], normalize_embeddings=True)
         scores, indices = self.index.search(
             q_emb.astype("float32"),
-            top_k * 4   # 🔑 bounded recall
+            top_k * 4
         )
 
         results = self.df.iloc[indices[0]].copy()
         results["score"] = scores[0]
 
-        # -------------------------------
-        # 2️⃣ CONTROLLED KEYWORD BOOST
-        # -------------------------------
         keywords = extract_keywords(query)
 
         def keyword_boost(row):
@@ -64,9 +58,6 @@ class SHLRecommender:
 
         results["score"] += results.apply(keyword_boost, axis=1)
 
-        # -------------------------------
-        # 3️⃣ LIGHT KP BIAS (NOT UNION)
-        # -------------------------------
         want_p = needs_personality(query)
 
         def kp_boost(row):
@@ -79,9 +70,6 @@ class SHLRecommender:
 
         results["score"] += results.apply(kp_boost, axis=1)
 
-        # -------------------------------
-        # 4️⃣ FINAL SORT
-        # -------------------------------
         results = results.sort_values("score", ascending=False)
 
         return results.head(top_k)

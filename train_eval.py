@@ -3,17 +3,12 @@ import numpy as np
 from recommender import SHLRecommender
 from urllib.parse import urlparse
 
-# -------------------------------------------------
-# CONFIG
-# -------------------------------------------------
+
 DATASET_PATH = "data/Gen_AI Dataset(Train-Set).csv"
 QUERY_COL = "Query"
 GT_COL = "Assessment_url"
 K_VALUES = [10]
 
-# -------------------------------------------------
-# URL NORMALIZATION
-# -------------------------------------------------
 def normalize_shl_url(url: str) -> str:
     if not isinstance(url, str):
         return ""
@@ -23,14 +18,10 @@ def normalize_shl_url(url: str) -> str:
     path = parsed.path.replace("/solutions", "").rstrip("/")
     return path
 
-# -------------------------------------------------
-# LOAD + GROUP DATA
-# -------------------------------------------------
 def load_eval_data():
     df = pd.read_csv(DATASET_PATH)
     df = df.dropna(subset=[QUERY_COL, GT_COL])
 
-    # 🔥 GROUP BY QUERY → list of relevant URLs
     grouped = (
         df.groupby(QUERY_COL)[GT_COL]
         .apply(lambda x: [normalize_shl_url(u) for u in x])
@@ -40,18 +31,13 @@ def load_eval_data():
     print(f"Loaded {len(grouped)} unique evaluation queries")
     return grouped
 
-# -------------------------------------------------
-# RECALL@K
-# -------------------------------------------------
 def recall_at_k(retrieved, relevant, k):
     if not relevant:
         return 0.0
     retrieved_k = retrieved[:k]
     return len(set(retrieved_k) & set(relevant)) / len(relevant)
 
-# -------------------------------------------------
-# MEAN RECALL@K
-# -------------------------------------------------
+
 def mean_recall_at_k(model, grouped_gt, k):
     scores = []
 
@@ -68,9 +54,7 @@ def mean_recall_at_k(model, grouped_gt, k):
         print(f"Recall@10 for query: {score:.2f}")
     return float(np.mean(scores))
 
-# -------------------------------------------------
-# RUN
-# -------------------------------------------------
+
 def run_evaluation():
     model = SHLRecommender()
     grouped_gt = load_eval_data()
@@ -82,6 +66,5 @@ def run_evaluation():
         score = mean_recall_at_k(model, grouped_gt, k)
         print(f"Mean Recall@{k}: {score:.4f}")
 
-# -------------------------------------------------
 if __name__ == "__main__":
     run_evaluation()
