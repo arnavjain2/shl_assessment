@@ -49,15 +49,15 @@ Install dependencies
 pip install -r requirements.txt
 
 ### Running the Application
-#▶️ Run the API
+### ▶️ Run the API
 
     uvicorn api:app --reload
 
-# 🌐 Open API Docs
+### 🌐 Open API Docs
 
     http://127.0.0.1:8000/docs
 
-# 📌 Example API Request
+### 📌 Example API Request
 
     POST /recommend
     {
