@@ -12,20 +12,27 @@ Interactive UI built with Streamlit
 Evaluation using Mean Recall@K
 
 # Structure
-.
-├── api.py                    
-├── app.py                    
+shl_assessment/
+├── api.py
+├── app.py
 ├── recommender.py
-├── requirements.txt
-├── crawler.py
+├── all_embeddings.py
 ├── build_faiss_index.py
-├── all_embeddings.py# Core recommendation logic
-├── data/
-│   ├── shl_assessments.csv   
-│   ├── embeddings_alls.npy
-│   ├──Arnav_Jain.csv
-│   └── faiss_index.index     
+├── crawler.py
+├── train_eval.py
+├── submission_test.py
+├── requirements.txt
+├── shl_assessments.csv
+├── .gitignore
+├── .python-version
+├── LICENSE
 ├── README.md
+└── data/
+    ├── embeddings_alls.npy
+    ├── faiss_index.index
+    ├── Arnav_Jain.csv
+    └── shl_assessments.csv
+
 
 
 # Setup Instructions
