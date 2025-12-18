@@ -1,9 +1,8 @@
 import streamlit as st
-import pandas as pd
-from recommender import SHLRecommender
+import requests
 
 # ---------------------------------
-# PAGE CONFIG
+# CONFIG
 # ---------------------------------
 st.set_page_config(
     page_title="SHL Assessment Recommender",
@@ -17,13 +16,11 @@ st.write(
 )
 
 # ---------------------------------
-# LOAD MODEL (CACHE)
+# API URL (CHANGE AFTER DEPLOY)
 # ---------------------------------
-@st.cache_resource
-def load_model():
-    return SHLRecommender()
-
-model = load_model()
+API_URL = "https://shl-api.onrender.com/recommend"
+# during local testing:
+# API_URL = "http://localhost:10000/recommend"
 
 # ---------------------------------
 # INPUTS
@@ -41,23 +38,32 @@ top_k = st.slider(
 )
 
 # ---------------------------------
-# RUN RECOMMENDER
+# CALL API
 # ---------------------------------
 if st.button("Recommend Assessments"):
     if not query.strip():
         st.warning("Please enter a query.")
     else:
         with st.spinner("Finding best assessments..."):
-            results = model.recommend(query, top_k=top_k)
+            response = requests.post(
+                API_URL,
+                json={"query": query, "top_k": top_k},
+                timeout=60
+            )
 
-        if results.empty:
-            st.error("No assessments found.")
+        if response.status_code != 200:
+            st.error("API error. Please try again.")
         else:
-            st.success(f"Top {len(results)} recommendations")
+            data = response.json()["results"]
 
-            for idx, row in results.iterrows():
-                st.markdown("### " + row["name"])
-                st.markdown(f"🔗 **URL:** {row['url']}")
-                st.markdown(f"⏱️ **Duration:** {row['duration']} minutes")
-                st.markdown(f"🧠 **Test Type:** {row['test_type']}")
-                st.markdown("---")
+            if not data:
+                st.warning("No assessments found.")
+            else:
+                st.success(f"Top {len(data)} recommendations")
+
+                for item in data:
+                    st.markdown(f"### {item['name']}")
+                    st.markdown(f"🔗 **URL:** {item['url']}")
+                    st.markdown(f"⏱️ **Duration:** {item['duration']} minutes")
+                    st.markdown(f"🧠 **Test Type:** {item['test_type']}")
+                    st.markdown("---")

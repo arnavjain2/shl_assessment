@@ -1,19 +1,20 @@
+# api.py
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
-import pandas as pd
-from recommender import SHLRecommender   # <-- your file
+from recommender import SHLRecommender
+import uvicorn
 
 app = FastAPI(
     title="SHL Assessment Recommendation API",
     version="1.0"
 )
 
-# Load model once
+# Load model ONCE
 model = SHLRecommender()
 
 # ---------------------------
-# Request / Response Schemas
+# Schemas
 # ---------------------------
 class RecommendRequest(BaseModel):
     query: str
@@ -34,10 +35,10 @@ class RecommendResponse(BaseModel):
 # ---------------------------
 @app.post("/recommend", response_model=RecommendResponse)
 def recommend(req: RecommendRequest):
-    results_df = model.recommend(req.query, top_k=req.top_k)
+    df = model.recommend(req.query, top_k=req.top_k)
 
     results = []
-    for _, row in results_df.iterrows():
+    for _, row in df.iterrows():
         results.append({
             "name": row["name"],
             "url": row["url"],
@@ -48,9 +49,10 @@ def recommend(req: RecommendRequest):
 
     return {"results": results}
 
-# ---------------------------
-# Health check
-# ---------------------------
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+# Local dev only
+if __name__ == "__main__":
+    uvicorn.run("api:app", host="0.0.0.0", port=8000)
