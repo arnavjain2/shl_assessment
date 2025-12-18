@@ -28,10 +28,10 @@ shl_assessment/
 ├── LICENSE
 ├── README.md
 └── data/
-    ├── embeddings_alls.npy
-    ├── faiss_index.index
-    ├── Arnav_Jain.csv
-    └── shl_assessments.csv
+├── embeddings_alls.npy
+├── faiss_index.index
+├── Arnav_Jain.csv
+└── shl_assessments.csv
 
 
 
