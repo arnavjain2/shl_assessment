@@ -11,27 +11,28 @@ REST API built with FastAPI
 Interactive UI built with Streamlit
 Evaluation using Mean Recall@K
 
-# Structure
-shl_assessment/
-├── api.py
-├── app.py
-├── recommender.py
-├── all_embeddings.py
-├── build_faiss_index.py
-├── crawler.py
-├── train_eval.py
-├── submission_test.py
-├── requirements.txt
-├── shl_assessments.csv
-├── .gitignore
-├── .python-version
-├── LICENSE
-├── README.md
-└── data/
-├── embeddings_alls.npy
-├── faiss_index.index
-├── Arnav_Jain.csv
-└── shl_assessments.csv
+## 📁 Project Structure
+
+    shl_assessment/
+    ├── api.py
+    ├── app.py
+    ├── recommender.py
+    ├── all_embeddings.py
+    ├── build_faiss_index.py
+    ├── crawler.py
+    ├── train_eval.py
+    ├── submission_test.py
+    ├── requirements.txt
+    ├── shl_assessments.csv
+    ├── .gitignore
+    ├── .python-version
+    ├── LICENSE
+    ├── README.md
+    └── data/
+        ├── embeddings_alls.npy
+        ├── faiss_index.index
+        ├── Arnav_Jain.csv
+        └── shl_assessments.csv
 
 
 
