@@ -18,7 +18,7 @@ st.write(
 # ---------------------------------
 # API URL (CHANGE AFTER DEPLOY)
 # ---------------------------------
-API_URL = "https://shl-api.onrender.com/recommend"
+API_URL = "https://shl-api-zt7k.onrender.com/recommend"
 # during local testing:
 # API_URL = "http://localhost:10000/recommend"
 
