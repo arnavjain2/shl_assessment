@@ -27,8 +27,7 @@ def main():
         for rank, (_, r) in enumerate(results.iterrows(), start=1):
             rows.append({
                 "Query": query,
-                "Rank": rank,
-                "Predicted_URL": r["url"]
+                "Assessment_url": r["url"]
             })
 
         if idx % 5 == 0:

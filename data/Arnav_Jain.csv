@@ -1,14 +1,14 @@
-Query,Rank,Predicted_URL
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",1,https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",2,https://www.shl.com/products/product-catalog/view/java-web-services-new/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",3,https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",4,https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",5,https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",6,https://www.shl.com/products/product-catalog/view/java-frameworks-new/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",7,https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",8,https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",9,https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/
-"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",10,https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/
+Query,Assessment_url
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/java-web-services-new/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/java-frameworks-new/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/
+"Looking to hire mid-level professionals who are proficient in Python, SQL and Java Script. Need an assessment package that can test all skills with max duration of 60 minutes.",https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -69,7 +69,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",1,https://www.shl.com/products/product-catalog/view/ai-skills/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/ai-skills/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -130,7 +130,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",2,https://www.shl.com/products/product-catalog/view/smart-interview-live/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/smart-interview-live/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -191,7 +191,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",3,https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -252,7 +252,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",4,https://www.shl.com/products/product-catalog/view/automata-pro-new/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/automata-pro-new/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -313,7 +313,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",5,https://www.shl.com/products/product-catalog/view/automata-new/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/automata-new/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -374,7 +374,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",6,https://www.shl.com/products/product-catalog/view/automata-data-science-pro-new/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/automata-data-science-pro-new/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -435,7 +435,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",7,https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -496,7 +496,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",8,https://www.shl.com/products/product-catalog/view/pjm-selection-report/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/pjm-selection-report/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -557,7 +557,7 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",9,https://www.shl.com/products/product-catalog/view/automata-data-science-new/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/automata-data-science-new/
 "Job Description
 
  Join a community that is shaping the future of work! 
@@ -618,17 +618,17 @@ What SHL Can Offer You
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",10,https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",1,https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",2,https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",3,https://www.shl.com/products/product-catalog/view/smart-interview-live/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",4,https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",5,https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",6,https://www.shl.com/products/product-catalog/view/account-manager-solution/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",7,https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",8,https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",9,https://www.shl.com/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/
-"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",10,https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/
+Can you recommend some assessment that can help me screen applications. Time limit is less than 30 minutes",https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/smart-interview-live/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/account-manager-solution/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/
+"I am hiring for an analyst and wants applications to screen using Cognitive and personality tests, what options are available within 45 mins.",https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -717,7 +717,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",1,https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -806,7 +806,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",2,https://www.shl.com/products/product-catalog/view/sales-interview-guide/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/sales-interview-guide/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -895,7 +895,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",3,https://www.shl.com/products/product-catalog/view/pjm-selection-report/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/pjm-selection-report/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -984,7 +984,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",4,https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -1073,7 +1073,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",5,https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -1162,7 +1162,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",6,https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -1251,7 +1251,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",7,https://www.shl.com/products/product-catalog/view/pjm-development-report/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/pjm-development-report/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -1340,7 +1340,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",8,https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -1429,7 +1429,7 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",9,https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/
 "I have a JD Job Description
 
  People Science. People Answers  !
@@ -1518,17 +1518,17 @@ The ability to transform workplaces around the world for others.
 
 SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.
 
-Here and I have want them to give a test which is atleast  30 mins long",10,https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",1,https://www.shl.com/products/product-catalog/view/sales-interview-guide/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",2,https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",3,https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",4,https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",5,https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",6,https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",7,https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",8,https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",9,https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/
-"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",10,https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/
+Here and I have want them to give a test which is atleast  30 mins long",https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/sales-interview-guide/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/
+"I am new looking for new graduates in my sales team, suggest an 30 min long assessment",https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1552,7 +1552,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",1,https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1576,7 +1576,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",2,https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1600,7 +1600,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",3,https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1624,7 +1624,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",4,https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1648,7 +1648,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",5,https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1672,7 +1672,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",6,https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1696,7 +1696,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",7,https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1720,7 +1720,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",8,https://www.shl.com/products/product-catalog/view/sales-interview-guide/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/sales-interview-guide/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1744,7 +1744,7 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",9,https://www.shl.com/products/product-catalog/view/executive-scenarios-narrative-report/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/executive-scenarios-narrative-report/
 "For Marketing - Content Writer Position
 
 Department: Marketing
@@ -1768,17 +1768,17 @@ Brainstorming visual and copy ideas with other members of the creative team
 Visualizing different forms of communication approaches for various marketing platforms like Website, Email, Social, etc. for ShopClues.
 Generating Stories for Brands core blog, and other content-driven platforms.
 Overseeing the production phase till the final output.
-Experience in the publishing of Push Notification and unique Product Description.",10,https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",1,https://www.shl.com/products/product-catalog/view/pjm-selection-report/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",2,https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",3,https://www.shl.com/products/product-catalog/view/managerial-scenarios-profile-report/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",4,https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",5,https://www.shl.com/products/product-catalog/view/branch-manager-short-form/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",6,https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",7,https://www.shl.com/products/product-catalog/view/management-scenarios/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",8,https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",9,https://www.shl.com/products/product-catalog/view/sap-hcm-human-capital-management-new/
-"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",10,https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/
+Experience in the publishing of Push Notification and unique Product Description.",https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/pjm-selection-report/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/managerial-scenarios-profile-report/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/branch-manager-short-form/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/management-scenarios/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/sap-hcm-human-capital-management-new/
+"I want to hire a product manager with 3-4 years of work experience and expertise in SDLC, Jira and Confluence",https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -1830,7 +1830,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",1,https://www.shl.com/products/product-catalog/view/bank-operations-supervisor-short-form/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/bank-operations-supervisor-short-form/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -1882,7 +1882,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",2,https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -1934,7 +1934,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",3,https://www.shl.com/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -1986,7 +1986,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",4,https://www.shl.com/products/product-catalog/view/pjm-selection-report/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/pjm-selection-report/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -2038,7 +2038,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",5,https://www.shl.com/products/product-catalog/view/branch-manager-short-form/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/branch-manager-short-form/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -2090,7 +2090,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",6,https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/sales-profiler-cards/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -2142,7 +2142,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",7,https://www.shl.com/products/product-catalog/view/account-manager-solution/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/account-manager-solution/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -2194,7 +2194,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",8,https://www.shl.com/products/product-catalog/view/sales-interview-guide/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/sales-interview-guide/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -2246,7 +2246,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",9,https://www.shl.com/products/product-catalog/view/administrative-professional-short-form/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/administrative-professional-short-form/
 "Suggest me an assessment for the JD below Job Description
 
  Find purpose in each day while contributing to a workplace revolution! SHL, People Science. People Answers. 
@@ -2298,7 +2298,7 @@ Support, coaching, and on-the-job development to achieve career success
 A fun and flexible workplace where you’ll be inspired to do your best work (find out more LifeAtSHL )
 The ability to transform workplaces around the world for others.
 
-SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",10,https://www.shl.com/products/product-catalog/view/bank-collections-agent-short-form/
+SHL is an equal opportunity employer. We support and encourage applications from a diverse range of candidates. We can, and do make adjustments to make sure our recruitment process is as inclusive as possible.",https://www.shl.com/products/product-catalog/view/bank-collections-agent-short-form/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2344,7 +2344,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",1,https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2390,7 +2390,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",2,https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2436,7 +2436,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",3,https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2482,7 +2482,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",4,https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2528,7 +2528,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",5,https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2574,7 +2574,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",6,https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2620,7 +2620,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",7,https://www.shl.com/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2666,7 +2666,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",8,https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2712,7 +2712,7 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",9,https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/
 "I want to hire Customer support executives who are expert in English communication.  
 We are looking for talented Customer Support specialists to join our Product operations team in India (Mumbai)
 
@@ -2758,4 +2758,4 @@ Our global benefits
 Private health insurance
 Subscription allowance
 Find more information about our benefits here
-Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",10,https://www.shl.com/products/product-catalog/view/bank-operations-supervisor-short-form/
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills.",https://www.shl.com/products/product-catalog/view/bank-operations-supervisor-short-form/
