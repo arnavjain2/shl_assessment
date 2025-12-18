@@ -18,7 +18,6 @@ model = SHLRecommender()
 # ---------------------------
 class RecommendRequest(BaseModel):
     query: str
-    top_k: int = 10
 
 class Assessment(BaseModel):
     name: str
@@ -35,7 +34,7 @@ class RecommendResponse(BaseModel):
 # ---------------------------
 @app.post("/recommend", response_model=RecommendResponse)
 def recommend(req: RecommendRequest):
-    df = model.recommend(req.query, top_k=req.top_k)
+    df = model.recommend(req.query)
 
     results = []
     for _, row in df.iterrows():

@@ -2,7 +2,7 @@ import pandas as pd
 from recommender import SHLRecommender
 
 INPUT_FILE = "data/Gen_AI Dataset test.csv"
-OUTPUT_FILE = "data/query_predictions_flat.csv"
+OUTPUT_FILE = "data/Arnav_Jain.csv"
 QUERY_COL = "Query"
 TOP_K = 10
 
