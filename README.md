@@ -49,14 +49,21 @@ Install dependencies
 pip install -r requirements.txt
 
 ### Running the Application
-uvicorn api:app --reload
-Open API docs in browser:
-http://127.0.0.1:8000/docs
-Example API request
-POST /recommend
-{
-  "query": "Hiring a Senior Data Analyst with SQL and Python skills"
-}
+#▶️ Run the API
+
+    uvicorn api:app --reload
+
+# 🌐 Open API Docs
+
+    http://127.0.0.1:8000/docs
+
+# 📌 Example API Request
+
+    POST /recommend
+    {
+        "query": "Hiring a Senior Data Analyst with SQL and Python skills"
+    }
+
 
 ## Run the Streamlit UI
 Start the UI:
